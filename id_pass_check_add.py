@@ -1,5 +1,6 @@
 import json
 from data_handle import create_member
+#open file
 
 with open('all_details.json') as f:
     user = json.load(f)
